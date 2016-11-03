@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	var $menuItems = $(".js-trigger");
-	var $item = $menuItems.find("li a");
-	var $category = $(".js-content").find("li");
+	var $menuItems = $(".js-trigger"),
+		$item = $menuItems.find("li a"),
+		$category = $(".js-content").find("li");
 
 	$item.on("click", function(e) {
 		e.preventDefault();
